@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #ddd;
+}
+.wrap{
+	width:auto;
+	height:auto;
+	margin:0 auto;	
+	position: relative;
+}
+.wrap div{
+	float: left;
+	width: 280px;
+	height:auto;
+    overflow: hidden;
+	padding: 10px;
+	/* border:1px solid red; */
+	margin:10px;
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.wrap div img{
+	width:100%;
+	height:auto;
+}
